@@ -1,0 +1,14 @@
+
+<% if flash[:notice] %>
+  <p class="notice"><%= flash[:notice] %></p>
+<% end %>
+
+<h1>Listando Clientes</h1>
+
+<ul>
+<li></li>
+<li></li>
+</ul>
+
+<%= link_to 'Novo Cliente', new_customer_path %>
+<%= link_to "Voltar", root_path %>
